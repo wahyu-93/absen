@@ -16,8 +16,8 @@ export default function Authenticated({ user, header, children }) {
         },
         {
             name: 'user',
-            href: route('dashboard'),
-            current: route().current('dashboard'),
+            href: route('user.index'),
+            current: route().current('user.index'),
         },
         {
             name: 'absensi',
